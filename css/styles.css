@@ -1,21 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* Set up a flex frid container similar to work based on rows and columns */
-.row {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .centered-row {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.column {
-  /*flex-basis: 100%;*/
-  flex: 1;
 }
 
 * {
